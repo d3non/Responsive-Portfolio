@@ -1,0 +1,142 @@
+ .header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid #4aaaa5;
+ }
+
+ #hleft{
+    float: left;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 40px;
+    color: white;
+    width: 30%;
+    height: 100%;
+ }
+
+ p{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.6;
+ }
+
+ #hmiddle{
+    float: left;
+    width: 40%;
+    height: 100%;
+ }
+
+ #hright{
+    float: left;
+    color: #333;
+    background: #666;
+    width:30%;
+ }
+
+ h2{
+    font-size: 30px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 100%;
+    border-bottom: 2px solid grey;
+}
+
+ .subheader {
+    position: relative;
+    background: white;
+    width: 690px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+  body {
+      background-color:#dddddd;
+  }
+  
+  section {
+
+    color: white;
+  }
+  
+  #left {
+    background-color: white;
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+  }
+
+  #imgindex{
+    background-color: white;
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  #mainindex {
+    margin: auto;
+    margin-top: 40px;
+    background: white;
+    height: 380px;
+    width: 690px;
+  }
+
+  #mainportfolio {
+    margin: auto;
+    margin-top: 40px;
+    background: white;
+    height: 450px;
+    width: 690px;
+  }
+  
+  #right {
+    background-color: #666;
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+  }
+  
+  .footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .button {
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    width: 980px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    width: 640px;
+  }
+  .header{
+    position: static;
+  }
+}
